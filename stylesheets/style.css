@@ -1,0 +1,43 @@
+@import url('reset.css');
+
+body {
+  background: #23395B;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#stopwatch {
+  text-align: center;
+  padding-top: 210px;
+}
+
+#controls {
+  margin-top: 30px;
+}
+
+p {
+  font-size:  86px;
+  font-weight: bold;
+}
+
+span {
+  vertical-align: middle;
+  display: inline-block;
+  width: 100px;
+  margin: 0 10px;
+}
+
+button {
+  font-size: 16px;
+  background: #23395B;
+  border-radius: 3px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 0;
+  width: 84px;
+  vertical-align: middle;
+}
+
+button + button {
+  margin-left: 15px;
+}
